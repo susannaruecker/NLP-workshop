@@ -31,10 +31,12 @@ The notebooks can be run in Google Colab (make sure to enable GPU!).
 ## Content Overview
 
 * 01_BOW_sklearn_FFN.ipynb
-    * TODO
+    * data loading, small inspection, BOW features with `sklearn.CountVectorizer`, some sklearn models, classification_report, Keras-FFN, plotting learning curves, predicting unseen text
 * 02_Word-Embeddings_FFN_RNN_fastText.ipynb
-    * TODO
+    * load and play around with German fastText Embeddings, use them for centroid ("bag-of-vectors") + FFN
+    * then RNN with Embedding-Layer with a) no pretrained weights, b) frozen fastText weights, c) fine tuning everything
 * 03a_BERT-classifier_PyTorch.ipynb
-    * TODO
+    * using pretrained `BertForSequenceClassification` from Huggingface's transformer library
+    * PyTorch
 * 03b_BERT-classifier_Keras.ipynb
-    * TODO
+    * trial: the same in Keras (`TFBertForSequenceClassification`)
