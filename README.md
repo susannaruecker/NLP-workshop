@@ -32,6 +32,7 @@ The notebooks can be run in Google Colab (make sure to enable GPU!).
 
 * 01_BOW_sklearn_FFN.ipynb
     * data loading, small inspection, BOW features with `sklearn.CountVectorizer`, some sklearn models, classification_report, Keras-FFN, plotting learning curves, predicting unseen text
+    * small look into Spacy (lemmatization, POS) and stop words list (NLTK)
 * 02_Word-Embeddings_FFN_RNN_fastText.ipynb
     * load and play around with German fastText Embeddings, use them for centroid ("bag-of-vectors") + FFN
     * then RNN with Embedding-Layer with a) no pretrained weights, b) frozen fastText weights, c) fine tuning everything
